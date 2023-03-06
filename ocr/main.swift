@@ -95,7 +95,7 @@ do {
         }
     }
 
-    let _ = ScreenCapture.captureRegion(destination: "/tmp/ocr.png")
+    let _ = ScreenCapture.captureRegion(destination: "/Users/bradycoye/Documents/screenshots/ocr.png")
 
     if let features = detectText(fileName : inputURL), !features.isEmpty{}
 
